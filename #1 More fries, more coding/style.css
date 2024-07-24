@@ -1,0 +1,10 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fry_box{
+    background-color: #C42D24;
+    width: 4em;
+    height: 6em;
+}
