@@ -2,9 +2,10 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 100vh;
 }
 .fry_box{
     background-color: #C42D24;
-    width: 4em;
-    height: 6em;
+    width: 15em;
+    height: 18em;
 }
