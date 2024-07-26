@@ -1,11 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 body{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.fries{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    margin-top: -20em;
+}
+.fry{
+    background-color: #FADA7B;
+    border: solid 1px rgb(60, 60, 60,);
+    width: 20px;
+    height: 80px;
+    border-radius: 5px;
+}
+
+.tapa{
+ background-color: rgb(255, 255, 255);
+ width: 150px;
+ height: 150px;
+ border-radius: 50%;
+ position: relative;
+ margin-top: -6em;
+ z-index: 1;
 }
 .fry_box{
-    background-color: #C42D24;
-    width: 15em;
-    height: 18em;
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    background: #C42D24;
+    clip-path: polygon(0% 0%, 100% 0%, 75% 60%, 25% 60%);
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   color: #fff;
+   font-size: 1.5em;
 }
